@@ -53,4 +53,8 @@ alias ll="eza -la --icons=always"
 eval "$(zoxide init zsh)"
 alias cd="z"
 
-[ -f "/Users/simonwinther/.ghcup/env" ] && . "/Users/simonwinther/.ghcup/env" # ghcup-env
+[ -f "/Users/simonwinther/.ghcup/env" ] && . "/Users/simonwinther/.ghcup/env" # ghcup-envexport PATH="$HOME/.local/bin:$PATH"
+
+unalias dotfiles 2>/dev/null
+dotfiles() { command git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"; }
+godot() { cd ~/.dotfiles/ }
