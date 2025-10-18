@@ -228,7 +228,13 @@ return {
         enabled = true,
         auto_trigger = true,
         hide_during_completion = false,
-        keymap = { accept = false, next = "<M-]>", prev = "<M-[>" },
+        keymap = {
+          accept = false,
+          accept_word = "<C-l>",
+          next = "<M-]>",
+          prev = "<M-[>",
+          dismiss = "<C-_>",
+        },
       },
       -- 👇 enable panel to view multiple suggestions
       panel = {
