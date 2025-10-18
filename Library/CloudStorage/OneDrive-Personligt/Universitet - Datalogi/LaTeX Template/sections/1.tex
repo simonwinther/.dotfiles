@@ -1,0 +1,35 @@
+\subsection*{BibTeX}
+
+I use BibLaTeX to manage my bibliography and Zotero to keep everything organized and up to date. With the Zotero Chrome extension, I can simply press \texttt{Ctrl + Shift + S} to instantly save the current page to my library. Then, using Better BibTeX I export my bibliography in BibTeX format with \enquote{Keep updated} enabled --- which is absolutely essential. If you're not doing this when writing papers, you're missing out. This setup makes citing sources genuinely enjoyable: I can reference something in under five seconds.
+
+\subsection*{CleverRef}
+I use CleverRef to automatically add references to sections, figures, tables, and equations. This is a huge time-saver and makes it easy to keep track of everything. I can simply write \texttt{\string\Cref\{sec:label\}}, and it will automatically format the reference correctly. This is especially useful when writing long papers with multiple sections and figures.
+
+\subsection*{VSCode}
+To make everything run smoothly, I use VS Code with a combination of VSCode Snippets, Hypersnips, and LaTeX Workshop. This setup is incredible—it makes writing papers effortless. I can jump between sections, figures, and tables with just a few keystrokes, and the auto-completion is a huge time-saver. Plus, GitHub Copilot helps write all the boilerplate, making the whole process even faster. Honestly, once you've got all your extensions set up, this is a million times better than Overleaf.
+
+
+\subsection*{Ways of describing}
+There are currently two ways I love to describe stuff in papers.
+\subsubsection*{Descriptions}
+The first one is using \texttt{description} environment. This is a great way to describe things in a structured way. I use it for everything from describing the main ideas of a paper to explaining the results of an experiment. Here's an example:
+
+\begin{description}[leftmargin=1.5cm,labelsep=0.5cm,style=nextline]
+      \item[\textbf{C}ommunalism] Scientific knowledge is the result of collective effort and should be considered collective property, not owned by individuals but by the scientific community as a whole.
+
+      \item[\textbf{U}niversalism] Knowledge claims must be judged by universal standards, regardless of the researcher's nationality, class, religion, or ethnicity. What matters is the claim's quality and relevance.
+
+      \item[\textbf{D}isinterestedness] Scientists should act impartially, avoiding personal interests and aiming to advance science as a collective endeavor rather than pursue private goals.
+
+      \item[\textbf{O}rganized \textbf{S}kepticism] Scientific claims must be openly shared and critically examined. Each claim should be questioned and tested, not accepted based on authority or belief.
+\end{description}
+
+\subsubsection*{tabuluarx}
+The second one is using \texttt{tabularx} environment. This is a great way to describe things in a structured way. I use it for everything from describing the main ideas of a paper to explaining the results of an experiment. Here's an example: \\
+
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+      \textbf{C}ommunalism                   & Scientific knowledge is the result of collective effort and belongs to the scientific community as a whole. \\
+      \textbf{U}niversalism                  & Knowledge claims should be judged by universal standards, regardless of personal characteristics.           \\
+      \textbf{D}isinterestedness             & Scientists must act impartially and avoid pursuing personal goals.                                          \\
+      \textbf{O}rganized \textbf{S}kepticism & Claims must be critically examined, not accepted on authority or belief.                                    \\
+\end{tabularx}

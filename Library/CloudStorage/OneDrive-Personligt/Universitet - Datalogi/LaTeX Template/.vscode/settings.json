@@ -1,0 +1,30 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/.vscode": true,
+        "**/.idea": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/out": true,
+        "**/coverage": true,
+        "**/logs": true,
+        "**.aux": true,
+        "**.bbl": true,
+        "**.blg": true,
+        "**.fls": true,
+        "**.log": true,
+        "**.out": true,
+        "**.toc": true,
+        "**.synctex.gz": true,
+        "**.synctex": true,
+        "**.fdb_latexmk": true,
+        "**.dvi": true,
+        "**.ps": true,
+    },
+    "cSpell.words": [
+        "Datalogi"
+    ]
+}
