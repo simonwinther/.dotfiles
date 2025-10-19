@@ -22,6 +22,7 @@ return {
         "-interaction=nonstopmode",
         "-synctex=1",
       },
+      clean = 1,
     }
   end,
 }

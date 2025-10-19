@@ -26,9 +26,9 @@ end, { expr = true, silent = true })
 
 ---------- Telescope keymaps ----------
 local tb = require("telescope.builtin")
-vim.keymap.set("n", "<leader>tf", tb.find_files, { desc = "Telescope Files" })
-vim.keymap.set("n", "<leader>tg", tb.live_grep, { desc = "Telescope Grep" })
-vim.keymap.set("n", "<leader>tb", tb.buffers, { desc = "Telescope Buffers" })
+vim.keymap.set("n", "<leader>tf", tb.find_files, { desc = "telescope files" })
+vim.keymap.set("n", "<leader>tg", tb.live_grep, { desc = "telescope grep" })
+vim.keymap.set("n", "<leader>tb", tb.buffers, { desc = "telescope buffers" })
 vim.keymap.set("n", "<leader>th", tb.help_tags, { desc = "Telescope Help" })
 
 ---------- Saving keymaps ----------
@@ -36,5 +36,10 @@ vim.keymap.set("n", "<leader>th", tb.help_tags, { desc = "Telescope Help" })
 vim.keymap.set("n", "<C-s>", ":w<CR>", { noremap = true, silent = true, desc = "Save file" })
 vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>a", { noremap = true, silent = true, desc = "Save file (insert mode)" })
 vim.keymap.set("v", "<C-s>", "<Esc>:w<CR>", { noremap = true, silent = true, desc = "Save file (visual mode)" })
+
+----------- Move lines keymaps ----------
+-- Move selected line / block of text in visual mode
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", opts)
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", opts)
 
 ---------- End of File ----------

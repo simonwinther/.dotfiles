@@ -8,5 +8,8 @@ require("nvim-surround").buffer_setup({
     i = { add = { "\\textit{", "}" } },
     u = { add = { "\\underline{", "}" } },
     c = { add = { "\\cite{", "}" } },
+    m = { add = { "\\(", "\\)" } },
+    d = { add = { "\\[", "\\]" } },
+    t = { add = { "\\texttt{", "}" } },
   },
 })
