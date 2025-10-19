@@ -1,0 +1,51 @@
+# ~/.config/ghostty/config
+
+# --- Theme & colors (from your WezTerm) ---
+background = #1e1e2e
+foreground = #cdd6f4
+
+# 16-color ANSI palette
+palette = 0=#45475a
+palette = 1=#f38ba8
+palette = 2=#a6e3a1
+palette = 3=#f9e2af
+palette = 4=#89b4fa
+palette = 5=#f5c2e7
+palette = 6=#94e2d5
+palette = 7=#cdd6f4
+palette = 8=#585b70
+palette = 9=#f38ba8
+palette = 10=#a6e3a1
+palette = 11=#f9e2af
+palette = 12=#89b4fa
+palette = 13=#f5c2e7
+palette = 14=#94e2d5
+palette = 15=#cdd6f4
+
+# Selection & cursor to match WezTerm
+selection-background = #89b4fa
+selection-foreground = #1e1e2e
+cursor-color         = #cdd6f4
+cursor-text          = #1e1e2e
+cursor-style         = block_hollow
+
+# --- Transparency & blur (macOS / supported DEs) ---
+background-opacity = 0.75
+background-blur    = 10
+# Optional: make apps like Neovim/Tmux also respect opacity
+# background-opacity-cells = true
+
+# --- “No tab bar” closest equivalents ---
+# Option A (macOS): hide the titlebar (clean look; tabs are effectively hidden)
+macos-titlebar-style = hidden
+# Option B (macOS): remove all decorations; also disables tabs entirely
+# window-decoration = none
+
+# --- macOS Option/Alt behavior (match your composed-key setup) ---
+# Your WezTerm sends composed characters on both Option keys,
+# so keep Option as Unicode compose (not Alt) in Ghostty:
+macos-option-as-alt = false
+
+# --- Custom cursor shader ---
+custom-shader = ~/.config/ghostty/shaders/cursor_blaze.glsl
+
