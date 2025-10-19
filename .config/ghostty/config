@@ -32,18 +32,13 @@ cursor-style         = block_hollow
 # --- Transparency & blur (macOS / supported DEs) ---
 background-opacity = 0.75
 background-blur    = 10
-# Optional: make apps like Neovim/Tmux also respect opacity
-# background-opacity-cells = true
+background-opacity-cells = true
 
 # --- “No tab bar” closest equivalents ---
-# Option A (macOS): hide the titlebar (clean look; tabs are effectively hidden)
 macos-titlebar-style = hidden
-# Option B (macOS): remove all decorations; also disables tabs entirely
 # window-decoration = none
 
 # --- macOS Option/Alt behavior (match your composed-key setup) ---
-# Your WezTerm sends composed characters on both Option keys,
-# so keep Option as Unicode compose (not Alt) in Ghostty:
 macos-option-as-alt = false
 
 # --- Custom cursor shader ---

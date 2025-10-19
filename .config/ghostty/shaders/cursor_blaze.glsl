@@ -70,7 +70,7 @@ const vec4 TRAIL_COLOR        = vec4(0.537, 0.706, 0.980, 1.0); // #89b4fa (matc
 const vec4 TRAIL_COLOR_ACCENT = vec4(0.431, 0.565, 0.784, 1.0); // #6e90c8 (~20% darker)
 
 // Subtlety controls
-const float TRAIL_INTENSITY = 0.60; // lower = more subtle overall
+const float TRAIL_INTENSITY = 0.50; // lower = more subtle overall
 const float SAT_FACTOR      = 1.10; // softer saturation than 1.5
 
 const float DURATION = 0.4; // IN SECONDS
