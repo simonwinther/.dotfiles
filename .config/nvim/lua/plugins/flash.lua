@@ -13,6 +13,7 @@ return {
     },
   },
   keys = {
+    { "s", mode = { "n", "x", "o" }, "/", desc = "Flash" },
     {
       "<c-s>", -- DUPLICATE KEY: <c-s> is for saving
       mode = { "c" },

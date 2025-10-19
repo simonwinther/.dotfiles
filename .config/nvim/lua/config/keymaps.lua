@@ -1,6 +1,5 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+-- Keymaps are automatically loaded on the VeryLazy event Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua Add any additional keymaps here local opts = { noremap = true, silent = true }
+local opts = { noremap = true, silent = true }
 
 ---------- Copilot keymaps ----------
 -- Smart <Tab>: Copilot if visible, else completion, else insert tab
@@ -27,7 +26,7 @@ end, { expr = true, silent = true })
 ---------- Telescope keymaps ----------
 local tb = require("telescope.builtin")
 vim.keymap.set("n", "<leader>tf", tb.find_files, { desc = "telescope files" })
-vim.keymap.set("n", "<leader>tg", tb.live_grep, { desc = "telescope grep" })
+vim.keymap.set("n", "<leader>tg", tb.live_grep, { desc = "telescope grep (root)" })
 vim.keymap.set("n", "<leader>tb", tb.buffers, { desc = "telescope buffers" })
 vim.keymap.set("n", "<leader>th", tb.help_tags, { desc = "Telescope Help" })
 
