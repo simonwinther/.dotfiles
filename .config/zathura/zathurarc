@@ -1,0 +1,22 @@
+# Zoom
+set zoom-step 10
+set adjust-open width
+
+# Colors and appearance
+set recolor true
+set recolor-lightcolor "#fdf6e3"
+set recolor-darkcolor "#002b36"
+
+# Interface
+set statusbar-h-padding 10
+set statusbar-v-padding 5
+set page-padding 5
+
+# Clipboard behavior
+set selection-clipboard clipboard
+
+# Behavior
+set synctex true
+set scroll-step 100
+set window-title-basename true
+
