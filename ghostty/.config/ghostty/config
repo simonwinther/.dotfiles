@@ -1,0 +1,56 @@
+# ~/.config/ghostty/config
+
+# --- Theme & colors ---
+background = #1e1e2e
+foreground = #cdd6f4
+
+palette = 0=#45475a
+palette = 1=#f38ba8
+palette = 2=#a6e3a1
+palette = 3=#f9e2af
+palette = 4=#89b4fa
+palette = 5=#f5c2e7
+palette = 6=#94e2d5
+palette = 7=#cdd6f4
+palette = 8=#585b70
+palette = 9=#f38ba8
+palette = 10=#a6e3a1
+palette = 11=#f9e2af
+palette = 12=#89b4fa
+palette = 13=#f5c2e7
+palette = 14=#94e2d5
+palette = 15=#cdd6f4
+
+# Selection & cursor
+selection-background = #89b4fa
+selection-foreground = #1e1e2e
+cursor-color         = #cdd6f4
+cursor-text          = #1e1e2e
+cursor-style         = block_hollow
+
+# Transparency (set to 1.0 for max speed)
+# handle with picom or other compositor in GNOME
+background-opacity = 0.8
+#background-opacity-cells = true
+
+# Window decorations (GNOME handles corners, not Ghostty)
+# window-decoration = none
+
+# Custom cursor shader (keep if you want it)
+custom-shader = ~/.config/ghostty/shaders/cursor_blaze.glsl
+
+# This is a bit annoying, as it forces you inside a tmux session always
+# And sometimes I want to leave to be able to do other stuff
+# command = tmux attach -t main || tmux new -s main
+
+# Use Ctrl+V to paste
+keybind = ctrl+v=paste_from_clipboard
+keybind = performable:ctrl+c=copy_to_clipboard
+
+# Remove the default Ctrl+Shift+C/V bindings
+keybind = ctrl+shift+c=unbind
+keybind = ctrl+shift+v=unbind
+
+
+
+

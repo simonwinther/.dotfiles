@@ -1,0 +1,34 @@
+# Zoom
+set zoom-step 10
+set adjust-open width
+
+# Colors and appearance
+set recolor true
+set recolor-lightcolor "#fdf6e3"
+set recolor-darkcolor "#002b36"
+
+# Interface
+set statusbar-h-padding 10
+set statusbar-v-padding 5
+set page-padding 5
+
+# Clipboard behavior
+set selection-clipboard clipboard
+
+# Behavior
+set synctex true
+set scroll-step 100
+set window-title-basename true
+
+# --- Navigation ---
+set scroll-step 50
+set page-padding 4
+set adjust-open width
+set scroll-hstep 50
+
+set statusbar-basename true
+set statusbar-h-padding 10
+set statusbar-v-padding 5
+set font "JetBrainsMono Nerd Font 11"
+set render-loading true
+set window-title-basename true
