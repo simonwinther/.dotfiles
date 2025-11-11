@@ -16,15 +16,10 @@ return {
       {
         "rafamadriz/friendly-snippets",
         config = function()
-          -- VS Code snippets + your own (~/.config/nvim/snippets)
-          require("luasnip.loaders.from_vscode").lazy_load()
-          require("luasnip.loaders.from_vscode").lazy_load({
-            paths = { vim.fn.stdpath("config") .. "/snippets" },
-          })
           -- Lua-based snippets (~/.config/nvim/lua/snips/*.lua)
           pcall(function()
             require("luasnip.loaders.from_lua").lazy_load({
-              paths = { vim.fn.stdpath("config") .. "/lua/snips" },
+              paths = { vim.fn.stdpath("config") .. "/snippets" },
             })
           end)
         end,

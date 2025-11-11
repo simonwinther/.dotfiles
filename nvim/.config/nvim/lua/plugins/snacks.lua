@@ -11,17 +11,17 @@ return {
         win = {
           input = {
             keys = {
-              ["-"] = { "edit_split", mode = { "i", "n" } }, -- horizontal split
-              ["|"] = { "edit_vsplit", mode = { "i", "n" } }, -- vertical split
-              ["<C-t>"] = { "tabedit", mode = { "i", "n" } }, -- new tab (optional)
+              ["-"] = { "edit_split", mode = { "n" } }, -- horizontal split
+              ["|"] = { "edit_vsplit", mode = { "n" } }, -- vertical split
+              ["<C-t>"] = { "tabedit", mode = { "n" } }, -- new tab (optional)
             },
           },
           -- If you also want the same keys to work when the list has focus:
           list = {
             keys = {
-              ["-"] = { "edit_split", mode = { "i", "n" } },
-              ["|"] = { "edit_vsplit", mode = { "i", "n" } },
-              ["<C-t>"] = { "tabedit", mode = { "i", "n" } },
+              ["-"] = { "edit_split", mode = { "n" } },
+              ["|"] = { "edit_vsplit", mode = { "n" } },
+              ["<C-t>"] = { "tabedit", mode = { "n" } },
             },
           },
         },
