@@ -1,32 +1,44 @@
 return {
   "AndrewRadev/switch.vim",
   config = function()
-    -- this helper comes from switch.vim (autoload), so we call it *after* the plugin is loaded
     local S = vim.fn["switch#NormalizedCaseWords"]
 
     vim.g.switch_custom_definitions = {
-      -- booleans / flags (case-aware: true/false, True/False, TRUE/FALSE)
+      -- Boolean / flag switches (case-aware)
       S({ "true", "false" }),
       S({ "on", "off" }),
       S({ "yes", "no" }),
-      { "0", "1" },
 
-      -- macros / config
+      -- numeric / simple toggles
+      { "0", "1" },
       { "define", "undef" },
 
-      -- math / comparison operators
-      { "+", "-" },
-      { "*", "/" }, -- multiply ↔ divide
-      { ">", "<" },
-      { ">=", "<=" },
+      -- comparison and assignment
       { "==", "!=" },
-      { "++", "--" }, -- increment ↔ decrement
+      { ">=", "<=" },
       { "+=", "-=" },
       { "*=", "/=" },
+
+      -- increment / decrement (multi-char operators)
+      { "++", "--" },
+      { "--", "++" },
+
+      -- SINGLE + / - only (never match ++ or --)
+      {
+        -- match a + that is not next to another +
+        ["\\%(^\\|[^+]\\)\\zs[+]\\ze\\%($\\|[^+]\\)"] = "-",
+        -- match a - that is not next to another -
+        ["\\%(^\\|[^-]\\)\\zs[-]\\ze\\%($\\|[^-]\\)"] = "+",
+      },
+
+      -- arithmetic and relational
+      { "*", "/" },
+      { ">", "<" },
       { "min", "max" },
       { "floor", "ceil" },
       { "ceil", "floor" },
       { "abs", "-abs" },
+
       -- logical / bitwise
       { "&&", "||" },
       { "&", "|" },
