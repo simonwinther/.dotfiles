@@ -15,14 +15,14 @@ return {
   keys = {
     { "s", mode = { "n", "x", "o" }, "/", desc = "Flash" },
     { "S", mode = { "n", "x", "o" }, "?", desc = "Flash backward" },
-    {
-      "gs", -- DUPLICATE KEY
-      mode = { "n", "x", "o" },
-      function()
-        require("flash").treesitter()
-      end,
-      desc = "Flash Treesitter",
-    },
+    -- {
+    --   "<c-<leader>>", -- DUPLICATE KEY
+    --   mode = { "n", "x", "o" },
+    --   function()
+    --     require("flash").treesitter()
+    --   end,
+    --   desc = "Flash Treesitter",
+    -- },
     {
       "<c-s>", -- DUPLICATE KEY: <c-s> is for saving
       mode = { "c" },

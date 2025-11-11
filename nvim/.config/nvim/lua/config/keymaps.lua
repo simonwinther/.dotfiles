@@ -13,6 +13,16 @@ local function is_mapped(mode, lhs)
 end
 
 ----------------------------------------
+--- Grep in Neovim config keymap
+----------------------------------------
+vim.keymap.set("n", "<leader>fC", function()
+  require("snacks").picker.grep({
+    title = "Grep Config",
+    cwd = vim.fn.stdpath("config"),
+  })
+end, { desc = "Grep in Neovim config" })
+
+----------------------------------------
 --- System clipboard keymaps
 ----------------------------------------
 -- Yank to system clipboard
@@ -24,7 +34,6 @@ vim.keymap.set({ "n", "v" }, "<leader>p", '"+p', { desc = "Paste from system cli
 ----------------------------------------
 --- Copilot and completion integration
 ----------------------------------------
-
 -- Smart <Tab>: Copilot if visible, else completion, else insert tab
 vim.keymap.set("i", "<Tab>", function()
   local ok, s = pcall(require, "copilot.suggestion")
