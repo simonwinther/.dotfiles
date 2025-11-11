@@ -17,6 +17,17 @@ return {
 
       hl.TermFloat = { bg = c.orange }
 
+      -- Telescope
+      hl.TelescopeBorder = { fg = "#5A5F80" }
+      hl.TelescopePromptBorder = { fg = "#7A80A0" }
+      hl.TelescopePromptTitle = { fg = c.orange, bold = true }
+      hl.TelescopePromptPrefix = { fg = c.orange, bold = true }
+      hl.TelescopeResultsBorder = { fg = "#5A5F80" }
+      hl.TelescopePreviewBorder = { fg = "#5A5F80" }
+      hl.TelescopePreviewTitle = { fg = c.orange, bold = true }
+      hl.TelescopeResultsTitle = { fg = c.orange, bold = true }
+      hl.TelescopeMatching = { fg = c.orange, bold = true }
+
       -- lazygit plugin
       hl.LazyGitFloat = { bg = c.orange }
       hl.LazyGitBorder = { fg = "#5A5F80" }
