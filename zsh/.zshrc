@@ -1,5 +1,5 @@
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.ghcup/bin:$PATH"
+
 
 # Remove duplicate entries from PATH (keep path unique)
 typeset -U path PATH
@@ -63,7 +63,8 @@ alias lg='lazygit'
 # ----- Latex ----- 
 export TEXINPUTS=/home/simon/Desktop/acl-style-files-master//:
 
-
+# ----- Copy Clipboard ------ 
+alias cc='xclip -selection clipboard'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
