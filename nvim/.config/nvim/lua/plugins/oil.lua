@@ -21,6 +21,9 @@ return {
       ["<C-l>"] = false, -- Refresh current directory list, consider changin to C-r
       ["<C-h>"] = false,
     },
+    view_options = {
+      show_hidden = true,
+    },
   },
   config = function(_, opts)
     require("oil").setup(opts)
