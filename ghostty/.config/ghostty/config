@@ -1,6 +1,8 @@
 # ~/.config/ghostty/config
+# Ctrl + shift + , 
 
 # --- Theme & colors ---
+font-size = 14
 background = #1e1e2e
 foreground = #cdd6f4
 
