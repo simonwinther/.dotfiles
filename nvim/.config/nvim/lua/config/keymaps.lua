@@ -66,10 +66,11 @@ vim.keymap.set("v", "<C-s>", "<Esc>:w<CR>", { noremap = true, silent = true, des
 ----------------------------------------
 --- Move lines keymaps
 ----------------------------------------
--- Move selected line / block of text in visual mode
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", opts)
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", opts)
 
+-- Move selected line / block of text in visual mode
+----------------------------------------
 --- Window management keymaps
 ----------------------------------------
 -- Save and quit window with <leader>ww if not already mapped
