@@ -1,5 +1,4 @@
-export PATH="$HOME/.local/bin:$PATH"
-
+export PATH="$HOME/.local/bin:/usr/local/bin:$PATH"
 
 # Remove duplicate entries from PATH (keep path unique)
 typeset -U path PATH
