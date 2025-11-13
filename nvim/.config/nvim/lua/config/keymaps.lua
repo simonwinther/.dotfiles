@@ -23,6 +23,25 @@ vim.keymap.set("n", "<leader>fC", function()
 end, { desc = "Grep in Neovim config" })
 
 ----------------------------------------
+--- Grep And Search files in Dotfiles config keymap
+---------------------------------------
+vim.keymap.set("n", "<leader>f.", function()
+  require("snacks").picker.files({
+    title = "Find Files in Dotfiles",
+    cwd = vim.env.DOTFILES or "~/.dotfiles",
+    hidden = true,
+  })
+end, { desc = "Find files in Dotfiles config" })
+
+vim.keymap.set("n", "<leader>f:", function()
+  require("snacks").picker.grep({
+    title = "Grep Dotfiles",
+    cwd = vim.env.DOTFILES or "~/.dotfiles",
+    hidden = true,
+  })
+end, { desc = "Grep in Dotfiles config" })
+
+----------------------------------------
 --- System clipboard keymaps
 ----------------------------------------
 -- Yank to system clipboard

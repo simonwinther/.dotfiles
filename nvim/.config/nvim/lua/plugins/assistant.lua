@@ -1,5 +1,5 @@
 return {
   "A7lavinraj/assistant.nvim",
-  lazy = false,
+  ft = { "cpp" },
   opts = {},
 }
