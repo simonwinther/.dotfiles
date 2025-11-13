@@ -258,3 +258,15 @@
 [2025-11-13 16:43:47.203] [info]  Stretchly: setting 'microbreakDuration' to '180000' (was '10000')
 [2025-11-13 16:43:48.609] [info]  Stretchly: setting 'microbreakDuration' to '540000' (was '180000')
 [2025-11-13 16:43:51.083] [info]  Stretchly: setting 'microbreakDuration' to '180000' (was '540000')
+[2025-11-13 16:54:09.638] [info]  Stretchly: pausing breaks because of idle time
+[2025-11-13 16:55:37.754] [info]  Stretchly: resuming breaks after idle time
+[2025-11-13 17:00:48.193] [info]  Stretchly: pausing breaks because of idle time
+[2025-11-13 18:18:29.430] [info]  Stretchly: resuming breaks after idle time
+[2025-11-13 18:23:30.847] [info]  Stretchly: pausing breaks because of idle time
+[2025-11-13 18:33:29.372] [info]  System: suspend or lock
+[2025-11-13 18:33:29.373] [info]  Stretchly: not pausing for suspendOrLock because paused already
+[2025-11-13 18:33:29.374] [info]  System: suspend or lock
+[2025-11-13 18:33:29.374] [info]  Stretchly: not pausing for suspendOrLock because paused already
+[2025-11-13 19:50:24.472] [info]  System: resume or unlock
+[2025-11-13 19:50:24.477] [info]  System: resume or unlock
+[2025-11-13 19:50:24.483] [info]  Stretchly: resuming breaks after idle time
