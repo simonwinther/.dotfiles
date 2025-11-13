@@ -1,0 +1,260 @@
+[2025-11-06 09:30:50.956] [info]  Stretchly: initializing...
+[2025-11-06 09:30:50.978] [info]  Stretchly: migrating preferences from Stretchly v0.0.0 to v1.13.0
+[2025-11-06 09:30:50.979] [info]  Stretchly: not migrating pauseBreaksShortcut
+[2025-11-06 09:30:50.985] [info]  Stretchly: migrating preferences from Stretchly v1.13.0 to v1.17.0
+[2025-11-06 09:30:50.985] [info]  Stretchly: not migrating showBreakActionsInStrictMode
+[2025-11-06 09:30:50.994] [info]  Stretchly: loading preferences
+[2025-11-06 09:30:51.005] [info]  Stretchly: starting Idle time monitoring
+[2025-11-06 09:30:51.005] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-06 09:30:51.006] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-06 09:30:51.154] [info]  Stretchly: loading default break ideas
+[2025-11-06 09:30:52.979] [info]  Stretchly: checking for new version (local: v1.18.1, remote: 1.18.1)
+[2025-11-06 09:30:54.715] [info]  Stretchly: setting 'language' to '"da"' (was '"en"')
+[2025-11-06 09:30:54.757] [info]  Stretchly: loading default break ideas
+[2025-11-06 09:30:57.016] [info]  Stretchly: loading default break ideas
+[2025-11-06 09:30:57.034] [info]  Stretchly: setting 'language' to '"en"' (was '"da"')
+[2025-11-06 09:31:28.058] [info]  Stretchly: setting 'isFirstRun' to 'false' (was 'true')
+[2025-11-06 09:32:18.608] [info]  Stretchly: initializing...
+[2025-11-06 09:32:18.621] [info]  Stretchly: loading preferences
+[2025-11-06 09:32:18.631] [info]  Stretchly: starting Idle time monitoring
+[2025-11-06 09:32:18.633] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-06 09:32:18.633] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-06 09:32:18.756] [info]  Stretchly: loading default break ideas
+[2025-11-06 09:32:20.424] [info]  Stretchly: checking for new version (local: v1.18.1, remote: 1.18.1)
+[2025-11-12 12:00:47.095] [info]  Stretchly: initializing...
+[2025-11-12 12:00:47.107] [info]  Stretchly: loading preferences
+[2025-11-12 12:00:47.118] [info]  Stretchly: starting Idle time monitoring
+[2025-11-12 12:00:47.119] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-12 12:00:47.120] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-12 12:00:47.302] [info]  Stretchly: loading default break ideas
+[2025-11-12 12:00:49.279] [info]  Stretchly: checking for new version (local: v1.18.1, remote: 1.18.1)
+[2025-11-13 15:44:26.672] [info]  Stretchly: initializing...
+[2025-11-13 15:44:26.697] [info]  Stretchly: migrating preferences from Stretchly v1.18.1 to v1.18.2
+[2025-11-13 15:44:26.704] [info]  Stretchly: migrating preferences from Stretchly v1.18.2 to v1.19.0
+[2025-11-13 15:44:26.710] [info]  Stretchly: migrating audio to longBreakAudio with value "crystal-glass"
+[2025-11-13 15:44:26.717] [info]  Stretchly: removing audio
+[2025-11-13 15:44:26.722] [info]  Stretchly: migrating microbreakStartSoundPlaying to miniBreakStartSound with value "silence"
+[2025-11-13 15:44:26.727] [info]  Stretchly: removing microbreakStartSoundPlaying
+[2025-11-13 15:44:26.733] [info]  Stretchly: migrating breakStartSoundPlaying to longBreakStartSound with value "silence"
+[2025-11-13 15:44:26.739] [info]  Stretchly: removing breakStartSoundPlaying
+[2025-11-13 15:44:26.746] [info]  Stretchly: loading preferences
+[2025-11-13 15:44:26.757] [info]  Stretchly: starting Idle time monitoring
+[2025-11-13 15:44:26.757] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-13 15:44:26.758] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-13 15:44:26.984] [info]  Stretchly: loading default break ideas
+[2025-11-13 15:44:28.594] [info]  Stretchly: checking for new version (local: v1.19.0, remote: 1.19.0)
+[2025-11-13 15:44:40.374] [info]  Stretchly: setting autostart to true on linux
+[2025-11-13 15:44:42.819] [info]  Stretchly: setting 'fullscreen' to 'true' (was 'false')
+[2025-11-13 15:45:11.693] [info]  Stretchly: setting 'miniBreakColor' to '"#1D1F21"' (was '"#478484"')
+[2025-11-13 15:45:11.706] [info]  Stretchly: setting 'mainColor' to '"#1D1F21"' (was '"#478484"')
+[2025-11-13 15:45:22.591] [info]  Stretchly: skipping to Mini break
+[2025-11-13 15:45:23.023] [info]  Stretchly: ready-to-show fired
+[2025-11-13 15:45:23.037] [info]  Stretchly: Mini break window loaded
+[2025-11-13 15:45:23.038] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 15:45:23.039] [info]  Stretchly: starting Mini break
+[2025-11-13 15:45:43.043] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 15:45:43.052] [info]  Stretchly: playing audio/crystal-glass.wav (volume: 1)
+[2025-11-13 15:46:05.016] [info]  Stretchly: setting 'checkNewVersion' to 'false' (was 'true')
+[2025-11-13 15:46:05.578] [info]  Stretchly: setting 'checkNewVersion' to 'true' (was 'false')
+[2025-11-13 15:52:33.413] [info]  Stretchly: setting 'miniBreakManualFinish' to 'true' (was 'false')
+[2025-11-13 15:52:33.414] [info]  Stretchly: setting 'longBreakManualFinish' to 'true' (was 'false')
+[2025-11-13 15:53:31.645] [info]  Stretchly: initializing...
+[2025-11-13 15:53:31.656] [info]  Stretchly: loading preferences
+[2025-11-13 15:53:31.670] [info]  Stretchly: starting Idle time monitoring
+[2025-11-13 15:53:31.671] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-13 15:53:31.672] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-13 15:53:31.871] [info]  Stretchly: loading default break ideas
+[2025-11-13 15:53:33.514] [info]  Stretchly: checking for new version (local: v1.19.0, remote: 1.19.0)
+[2025-11-13 15:53:53.233] [info]  Stretchly: skipping to Mini break
+[2025-11-13 15:53:53.692] [info]  Stretchly: ready-to-show fired
+[2025-11-13 15:53:53.713] [info]  Stretchly: Mini break window loaded
+[2025-11-13 15:53:53.714] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 15:53:53.715] [info]  Stretchly: starting Mini break
+[2025-11-13 15:54:13.725] [info]  Stretchly: entering manual finish phase (Mini break)
+[2025-11-13 15:54:13.726] [info]  Stretchly: playing audio/crystal-glass.wav (volume: 1)
+[2025-11-13 15:54:40.635] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 15:55:34.042] [info]  Stretchly: skipping to Mini break
+[2025-11-13 15:55:34.526] [info]  Stretchly: Mini break window loaded
+[2025-11-13 15:55:34.526] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 15:55:34.527] [info]  Stretchly: starting Mini break
+[2025-11-13 15:55:34.537] [info]  Stretchly: ready-to-show fired
+[2025-11-13 15:55:53.799] [info]  Stretchly: setting 'microbreakDuration' to '10000' (was '20000')
+[2025-11-13 15:55:54.529] [info]  Stretchly: entering manual finish phase (Mini break)
+[2025-11-13 15:55:54.530] [info]  Stretchly: playing audio/crystal-glass.wav (volume: 1)
+[2025-11-13 15:55:59.452] [info]  Stretchly: skipping to Mini break
+[2025-11-13 15:55:59.904] [info]  Stretchly: ready-to-show fired
+[2025-11-13 15:55:59.907] [info]  Stretchly: Mini break window loaded
+[2025-11-13 15:55:59.908] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 15:55:59.908] [info]  Stretchly: starting Mini break
+[2025-11-13 15:56:06.761] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 15:56:16.875] [info]  Stretchly: setting 'fullscreen' to 'false' (was 'true')
+[2025-11-13 15:56:22.607] [info]  Stretchly: initializing...
+[2025-11-13 15:56:22.618] [info]  Stretchly: loading preferences
+[2025-11-13 15:56:22.629] [info]  Stretchly: starting Idle time monitoring
+[2025-11-13 15:56:22.630] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-13 15:56:22.631] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-13 15:56:22.804] [info]  Stretchly: loading default break ideas
+[2025-11-13 15:56:24.082] [info]  Stretchly: checking for new version (local: v1.19.0, remote: 1.19.0)
+[2025-11-13 15:56:25.857] [info]  Stretchly: skipping to Mini break
+[2025-11-13 15:56:26.304] [info]  Stretchly: ready-to-show fired
+[2025-11-13 15:56:26.309] [info]  Stretchly: Mini break window loaded
+[2025-11-13 15:56:26.310] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 15:56:26.311] [info]  Stretchly: starting Mini break
+[2025-11-13 15:56:33.865] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 15:56:39.014] [info]  Stretchly: skipping to Mini break
+[2025-11-13 15:56:39.445] [info]  Stretchly: Mini break window loaded
+[2025-11-13 15:56:39.446] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 15:56:39.446] [info]  Stretchly: starting Mini break
+[2025-11-13 15:56:39.454] [info]  Stretchly: ready-to-show fired
+[2025-11-13 15:56:49.448] [info]  Stretchly: entering manual finish phase (Mini break)
+[2025-11-13 15:56:49.449] [info]  Stretchly: playing audio/crystal-glass.wav (volume: 1)
+[2025-11-13 15:57:14.012] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 15:58:16.466] [info]  Stretchly: skipping to Mini break
+[2025-11-13 15:58:16.933] [info]  Stretchly: ready-to-show fired
+[2025-11-13 15:58:16.935] [info]  Stretchly: Mini break window loaded
+[2025-11-13 15:58:16.936] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 15:58:16.938] [info]  Stretchly: starting Mini break
+[2025-11-13 15:58:20.231] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 16:00:18.318] [info]  Stretchly: setting 'microbreakInterval' to '1200000' (was '600000')
+[2025-11-13 16:00:19.419] [info]  Stretchly: setting 'microbreakInterval' to '900000' (was '1200000')
+[2025-11-13 16:00:23.041] [info]  Stretchly: setting 'microbreakDuration' to '200000' (was '10000')
+[2025-11-13 16:00:23.780] [info]  Stretchly: setting 'microbreakDuration' to '180000' (was '200000')
+[2025-11-13 16:00:41.396] [info]  Stretchly: setting 'microbreakStrictMode' to 'true' (was 'false')
+[2025-11-13 16:00:42.367] [info]  Stretchly: setting 'breakStrictMode' to 'true' (was 'false')
+[2025-11-13 16:00:46.199] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:00:46.640] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:00:46.645] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:00:46.646] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:00:46.647] [info]  Stretchly: starting Mini break
+[2025-11-13 16:01:02.718] [info]  Stretchly: postponing Mini break
+[2025-11-13 16:01:07.872] [info]  Stretchly: setting 'breakPostpone' to 'false' (was 'true')
+[2025-11-13 16:01:10.592] [info]  Stretchly: setting 'breakPostpone' to 'true' (was 'false')
+[2025-11-13 16:02:26.753] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:02:27.212] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:02:27.213] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:02:27.214] [info]  Stretchly: starting Mini break
+[2025-11-13 16:02:27.221] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:05:27.215] [info]  Stretchly: entering manual finish phase (Mini break)
+[2025-11-13 16:05:27.217] [info]  Stretchly: playing audio/crystal-glass.wav (volume: 1)
+[2025-11-13 16:06:54.580] [info]  Stretchly: preventing app closure (in break with strict mode)
+[2025-11-13 16:07:04.454] [info]  Stretchly: initializing...
+[2025-11-13 16:07:04.467] [info]  Stretchly: loading preferences
+[2025-11-13 16:07:04.481] [info]  Stretchly: starting Idle time monitoring
+[2025-11-13 16:07:04.482] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-13 16:07:04.482] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-13 16:07:04.675] [info]  Stretchly: loading default break ideas
+[2025-11-13 16:07:06.271] [info]  Stretchly: checking for new version (local: v1.19.0, remote: 1.19.0)
+[2025-11-13 16:07:12.579] [info]  Stretchly: setting 'microbreakStrictMode' to 'false' (was 'true')
+[2025-11-13 16:07:16.869] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:07:17.303] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:07:17.304] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:07:17.305] [info]  Stretchly: starting Mini break
+[2025-11-13 16:07:17.312] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:07:58.428] [info]  Stretchly: initializing...
+[2025-11-13 16:07:58.441] [info]  Stretchly: loading preferences
+[2025-11-13 16:07:58.454] [info]  Stretchly: starting Idle time monitoring
+[2025-11-13 16:07:58.455] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-13 16:07:58.455] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-13 16:07:58.610] [info]  Stretchly: loading default break ideas
+[2025-11-13 16:08:00.007] [info]  Stretchly: checking for new version (local: v1.19.0, remote: 1.19.0)
+[2025-11-13 16:08:04.494] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:08:04.950] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:08:04.952] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:08:04.953] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:08:04.954] [info]  Stretchly: starting Mini break
+[2025-11-13 16:08:22.814] [info]  Stretchly: postponing Mini break
+[2025-11-13 16:08:51.332] [info]  Stretchly: initializing...
+[2025-11-13 16:08:51.344] [info]  Stretchly: loading preferences
+[2025-11-13 16:08:51.356] [info]  Stretchly: starting Idle time monitoring
+[2025-11-13 16:08:51.357] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-13 16:08:51.357] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-13 16:08:51.543] [info]  Stretchly: loading default break ideas
+[2025-11-13 16:08:53.178] [info]  Stretchly: checking for new version (local: v1.19.0, remote: 1.19.0)
+[2025-11-13 16:08:58.543] [info]  Stretchly: setting 'fullscreen' to 'true' (was 'false')
+[2025-11-13 16:09:03.139] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:09:03.580] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:09:03.580] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:09:03.581] [info]  Stretchly: starting Mini break
+[2025-11-13 16:09:03.588] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:09:45.540] [info]  Stretchly: postponing Mini break
+[2025-11-13 16:10:05.836] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:10:06.292] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:10:06.293] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:10:06.293] [info]  Stretchly: starting Mini break
+[2025-11-13 16:10:06.302] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:10:15.886] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 16:11:15.060] [info]  Stretchly: skipping to Long break
+[2025-11-13 16:11:15.533] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:11:15.534] [info]  Stretchly: Long break window loaded
+[2025-11-13 16:11:15.535] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:11:15.536] [info]  Stretchly: starting Long break
+[2025-11-13 16:11:18.190] [info]  Stretchly: postponing Long break
+[2025-11-13 16:15:48.185] [info]  Stretchly: showing Long break notification
+[2025-11-13 16:15:48.193] [info]  Stretchly: showing notification "Long break in 30 seconds" (silent: false)
+[2025-11-13 16:16:18.537] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:16:18.545] [info]  Stretchly: Long break window loaded
+[2025-11-13 16:16:18.547] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:16:18.548] [info]  Stretchly: starting Long break
+[2025-11-13 16:21:18.550] [info]  Stretchly: entering manual finish phase (Long break)
+[2025-11-13 16:21:18.551] [info]  Stretchly: playing audio/crystal-glass.wav (volume: 1)
+[2025-11-13 16:21:28.144] [info]  Stretchly: finishing Long break (shouldPlanNext: true)
+[2025-11-13 16:22:19.756] [info]  Stretchly: setting 'breakStrictMode' to 'false' (was 'true')
+[2025-11-13 16:22:33.948] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:22:34.276] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:22:34.283] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:22:34.284] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:22:34.284] [info]  Stretchly: starting Mini break
+[2025-11-13 16:22:49.504] [info]  Stretchly: postponing Mini break
+[2025-11-13 16:24:39.501] [info]  Stretchly: showing Mini break notification
+[2025-11-13 16:24:39.507] [info]  Stretchly: showing notification "Mini break in 10 seconds" (silent: false)
+[2025-11-13 16:24:49.733] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:24:49.737] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:24:49.737] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:24:49.738] [info]  Stretchly: starting Mini break
+[2025-11-13 16:24:55.268] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 16:27:19.816] [info]  Stretchly: setting 'useMonochromeTrayIcon' to 'true' (was 'false')
+[2025-11-13 16:27:22.509] [info]  Stretchly: setting 'useMonochromeInvertedTrayIcon' to 'true' (was 'false')
+[2025-11-13 16:27:25.199] [info]  Stretchly: setting 'useMonochromeTrayIcon' to 'false' (was 'true')
+[2025-11-13 16:27:28.300] [info]  Stretchly: setting 'useMonochromeTrayIcon' to 'true' (was 'false')
+[2025-11-13 16:27:42.580] [info]  Stretchly: setting 'transparentMode' to 'true' (was 'false')
+[2025-11-13 16:27:49.819] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:27:50.160] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:27:50.168] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:27:50.168] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:27:50.169] [info]  Stretchly: starting Mini break
+[2025-11-13 16:27:53.329] [info]  Stretchly: postponing Mini break
+[2025-11-13 16:27:55.734] [info]  Stretchly: setting 'miniBreakColor' to '"#ffffff"' (was '"#1D1F21"')
+[2025-11-13 16:27:55.749] [info]  Stretchly: setting 'mainColor' to '"#ffffff"' (was '"#1D1F21"')
+[2025-11-13 16:27:59.224] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:27:59.561] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:27:59.561] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:27:59.562] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:27:59.562] [info]  Stretchly: starting Mini break
+[2025-11-13 16:28:01.511] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 16:28:02.856] [info]  Stretchly: setting 'miniBreakColor' to '"#1D1F21"' (was '"#ffffff"')
+[2025-11-13 16:28:02.865] [info]  Stretchly: setting 'mainColor' to '"#1D1F21"' (was '"#ffffff"')
+[2025-11-13 16:42:53.807] [info]  Stretchly: initializing...
+[2025-11-13 16:42:53.817] [info]  Stretchly: loading preferences
+[2025-11-13 16:42:53.826] [info]  Stretchly: starting Idle time monitoring
+[2025-11-13 16:42:53.827] [info]  Stretchly: starting Do Not Disturb monitoring
+[2025-11-13 16:42:53.827] [info]  System: Your Desktop seems to be ubuntu:GNOME.
+[2025-11-13 16:42:53.958] [info]  Stretchly: loading default break ideas
+[2025-11-13 16:42:55.464] [info]  Stretchly: checking for new version (local: v1.19.0, remote: 1.19.0)
+[2025-11-13 16:43:01.347] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:43:01.697] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:43:01.707] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:43:01.709] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:43:01.710] [info]  Stretchly: starting Mini break
+[2025-11-13 16:43:05.429] [info]  Stretchly: postponing Mini break
+[2025-11-13 16:43:14.116] [info]  Stretchly: setting 'microbreakDuration' to '10000' (was '180000')
+[2025-11-13 16:43:20.072] [info]  Stretchly: skipping to Mini break
+[2025-11-13 16:43:20.391] [info]  Stretchly: ready-to-show fired
+[2025-11-13 16:43:20.396] [info]  Stretchly: Mini break window loaded
+[2025-11-13 16:43:20.397] [info]  Stretchly: showing window 1 of 1
+[2025-11-13 16:43:20.397] [info]  Stretchly: starting Mini break
+[2025-11-13 16:43:30.400] [info]  Stretchly: entering manual finish phase (Mini break)
+[2025-11-13 16:43:30.401] [info]  Stretchly: playing audio/crystal-glass.wav (volume: 1)
+[2025-11-13 16:43:41.714] [info]  Stretchly: finishing Mini break (shouldPlanNext: true)
+[2025-11-13 16:43:47.203] [info]  Stretchly: setting 'microbreakDuration' to '180000' (was '10000')
+[2025-11-13 16:43:48.609] [info]  Stretchly: setting 'microbreakDuration' to '540000' (was '180000')
+[2025-11-13 16:43:51.083] [info]  Stretchly: setting 'microbreakDuration' to '180000' (was '540000')
