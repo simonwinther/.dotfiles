@@ -35,7 +35,6 @@ alias ll="eza -la --icons=always"
 eval "$(zoxide init zsh)"
 alias cd="z"
 
-
 # ---- Dotfiles ----
 unalias dotfiles 2>/dev/null
 dotfiles() { command git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"; }
@@ -65,6 +64,28 @@ export TEXINPUTS=/home/simon/Desktop/acl-style-files-master//:
 # ----- Copy Clipboard ------ 
 alias cc='xclip -selection clipboard'
 
+# ----- NVM (Node Version Manager) -----
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# ---- FZF Integration ----
+expand_fzf_space() {
+  if [[ $LBUFFER == *";f" ]]; then
+    LBUFFER="${LBUFFER%";f"} | fzf"
+  fi
+  zle self-insert
+}
+zle -N expand_fzf_space
+bindkey " " expand_fzf_space
+
+# Expand ";f" into " | fzf" on Enter
+expand_fzf_enter() {
+  if [[ $LBUFFER == *";f" ]]; then
+    LBUFFER="${LBUFFER%";f"} | fzf"
+  fi
+  zle accept-line
+}
+zle -N expand_fzf_enter
+bindkey "^M" expand_fzf_enter
+
