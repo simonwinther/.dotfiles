@@ -89,7 +89,6 @@ expand_fzf_enter() {
 zle -N expand_fzf_enter
 bindkey "^M" expand_fzf_enter
 
-
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

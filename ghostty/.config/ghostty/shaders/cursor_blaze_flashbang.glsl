@@ -76,7 +76,7 @@ const vec4 TRAIL_COLOR_ACCENT = vec4(0.431, 0.565, 0.784, 1.0); // #6e90c8 (~20%
 const float TRAIL_INTENSITY = 0.25;
 const float SAT_FACTOR = 0.85;
 
-const float DURATION = 0.4; // IN SECONDS
+const float DURATION = 0.5; // IN SECONDS
 
 void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {

@@ -12,6 +12,11 @@ local function is_mapped(mode, lhs)
   end
 end
 
+-----------------------------------------
+--- Disable mouse support
+-----------------------------------------
+vim.opt.mouse = ""
+
 ----------------------------------------
 --- Grep in Neovim config keymap
 ----------------------------------------

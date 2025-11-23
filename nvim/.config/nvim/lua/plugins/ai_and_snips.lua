@@ -185,7 +185,7 @@ return {
         },
         -- Show [copilot]/[lsp]/[buffer] etc.
         source_name = {
-          width = { max = 16 },
+          width = { max = 32 },
           highlight = "BlinkCmpSource",
           text = function(ctx)
             return "[" .. tostring(ctx.source_name or ctx.source_id or "?") .. "]"
@@ -193,18 +193,17 @@ return {
         },
       })
 
-      -- Keymaps (same as you had)
-      opts.keymap = opts.keymap
-        or {
-          preset = "none",
-          ["<Tab>"] = { "snippet_forward", "select_next", "fallback" },
-          ["<S-Tab>"] = { "snippet_backward", "select_prev", "fallback" },
-          ["<CR>"] = { "accept", "fallback" },
-          ["<C-e>"] = { "hide" },
-        }
-
       -- IMPORTANT: turn off Blink's own ghost text to avoid clashing with Copilot's inline ghost
       opts.completion.ghost_text = { enabled = false }
+
+      ------------------------------------------------------------------
+      -- Keymaps: keep default preset, just make <CR> accept completion
+      ------------------------------------------------------------------
+      opts.keymap = opts.keymap or {}
+      opts.keymap.preset = opts.keymap.preset or "default"
+
+      -- When menu is open: <CR> accepts; otherwise falls back to normal Enter
+      opts.keymap["<Tab>"] = { "accept", "fallback" }
 
       return opts
     end,
@@ -221,7 +220,7 @@ return {
     opts = {
       suggestion = {
         enabled = true,
-        auto_trigger = true,
+        auto_trigger = false, -- don't auto trigger, use keymaps to go through
         hide_during_completion = false,
         keymap = {
           accept = false,

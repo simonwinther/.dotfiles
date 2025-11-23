@@ -40,17 +40,22 @@ customCommands:
           - name: "test"
             description: "Adding missing tests or correcting existing tests"
             value: "test"
+
       - type: "input"
         title: "Scope (e.g. api, ui, db)"
         key: "Scope"
+
       - type: "input"
         title: "Summary"
         key: "Summary"
+
       - type: "input"
         title: "Description (optional)"
         key: "Description"
+
     command: >
-      git commit -m "{{.Form.Type}}({{.Form.Scope}}): {{.Form.Summary}}" {{if .Form.Description}}-m "{{.Form.Description}}"{{end}}
+      git commit -m "{{.Form.Type}}{{if .Form.Scope}}({{.Form.Scope}}){{end}}: {{.Form.Summary}}" {{if .Form.Description}}-m "{{.Form.Description}}"{{end}}
 
     loadingText: "Creating conventional commit..."
     output: log
+
