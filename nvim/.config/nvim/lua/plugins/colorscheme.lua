@@ -16,6 +16,12 @@ return {
       hl.FloatBorder = { fg = "#5A5F80" }
 
       hl.TermFloat = { bg = c.orange }
+      -- transparent background for neotree
+      hl.NeoTreeNormal = { bg = "none" }
+      hl.NeoTreeNormalNC = { bg = "none" }
+      hl.NeoTreeVertSplit = { bg = "none" }
+      hl.NeoTreeWinSeparator = { bg = "none" }
+      hl.NeoTreeEndOfBuffer = { bg = "none" }
 
       -- Telescope
       hl.TelescopeBorder = { fg = "#5A5F80" }

@@ -2,7 +2,7 @@
 return {
   {
     "OXY2DEV/markview.nvim",
-    lazy = false, -- as recommended
+    lazy = false,
     opts = {
       preview = { icon_provider = "internal" }, -- optional
     },
@@ -13,6 +13,4 @@ return {
       require("markview").setup(opts)
     end,
   },
-  -- If you had render-markdown before, disable it:
-  -- { "MeanderingProgrammer/render-markdown.nvim", enabled = false },
 }
