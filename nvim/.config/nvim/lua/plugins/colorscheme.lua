@@ -16,6 +16,7 @@ return {
       hl.FloatBorder = { fg = "#5A5F80" }
 
       hl.TermFloat = { bg = c.orange }
+
       -- transparent background for neotree
       hl.NeoTreeNormal = { bg = "none" }
       hl.NeoTreeNormalNC = { bg = "none" }
