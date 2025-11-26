@@ -1,4 +1,4 @@
--- transparent background
+-- Transparent background
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
@@ -15,19 +15,19 @@ vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopePromptBorder", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopePromptTitle", { bg = "none" })
 
--- transparent background for neotree
+-- Transparent background for neotree
 vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeVertSplit", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeWinSeparator", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeEndOfBuffer", { bg = "none" })
 
--- transparent background for nvim-tree
+-- Transparent background for nvim-tree
 vim.api.nvim_set_hl(0, "NvimTreeNormal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NvimTreeVertSplit", { bg = "none" })
 vim.api.nvim_set_hl(0, "NvimTreeEndOfBuffer", { bg = "none" })
 
--- transparent notify background
+-- Transparent notify background
 vim.api.nvim_set_hl(0, "NotifyINFOBody", { bg = "none" })
 vim.api.nvim_set_hl(0, "NotifyERRORBody", { bg = "none" })
 vim.api.nvim_set_hl(0, "NotifyWARNBody", { bg = "none" })
@@ -44,19 +44,18 @@ vim.api.nvim_set_hl(0, "NotifyWARNBorder", { bg = "none" })
 vim.api.nvim_set_hl(0, "NotifyTRACEBorder", { bg = "none" })
 vim.api.nvim_set_hl(0, "NotifyDEBUGBorder", { bg = "none" })
 
--- 1. Standard Float Title (This is likely the main fix for the "Grep"/"Files" labels)
+-- Transparent background for floating windows
 vim.api.nvim_set_hl(0, "FloatTitle", { bg = "none" })
 vim.api.nvim_set_hl(0, "FloatFooter", { bg = "none" })
 
--- 2. Specific Snacks Picker Highlights
+-- Transparent background for Snacks Picker
 vim.api.nvim_set_hl(0, "SnacksPickerTitle", { bg = "none" })
 vim.api.nvim_set_hl(0, "SnacksPickerInputTitle", { bg = "none" })
 vim.api.nvim_set_hl(0, "SnacksPickerPreviewTitle", { bg = "none" })
 vim.api.nvim_set_hl(0, "SnacksPickerListTitle", { bg = "none" })
 vim.api.nvim_set_hl(0, "SnacksPickerBoxTitle", { bg = "none" })
 
--- 3. WhichKey (If image 3 is WhichKey)
--- WhichKey uses its own specific background groups that override NormalFloat
+-- Transparent background for WhichKey
 vim.api.nvim_set_hl(0, "WhichKeyNormal", { bg = "none" })
 vim.api.nvim_set_hl(0, "WhichKeyTitle", { bg = "none" })
 vim.api.nvim_set_hl(0, "WhichKeyGroup", { bg = "none" })
