@@ -17,11 +17,23 @@ end
 -----------------------------------------
 vim.opt.mouse = ""
 
+-----------------------------------------
+--- Overwriting LazyVim's default <leader>sw and <leader>sW keymaps for Snacks grep_word with hidden files enabled
+-----------------------------------------
+vim.keymap.set({ "n", "x" }, "<leader>sw", function()
+  Snacks.picker.grep_word({ hidden = true })
+end, { desc = "Visual selection or word (Root Dir)" })
+
+vim.keymap.set({ "n", "x" }, "<leader>sW", function()
+  Snacks.picker.grep_word({ hidden = true, root = false })
+end, { desc = "Visual selection or word (cwd)" })
+
 ----------------------------------------
 --- Grep in Neovim config keymap
 ----------------------------------------
 vim.keymap.set("n", "<leader>fC", function()
   require("snacks").picker.grep({
+    hidden = true,
     title = "Grep Config",
     cwd = vim.fn.stdpath("config"),
   })
