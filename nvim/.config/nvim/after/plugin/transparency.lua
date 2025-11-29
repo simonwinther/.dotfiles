@@ -62,3 +62,6 @@ vim.api.nvim_set_hl(0, "WhichKeyGroup", { bg = "none" })
 vim.api.nvim_set_hl(0, "WhichKeyDesc", { bg = "none" })
 vim.api.nvim_set_hl(0, "WhichKeySeparator", { bg = "none" })
 vim.api.nvim_set_hl(0, "WhichKeyValue", { bg = "none" })
+
+-- Transparent background for Assistant plugin
+vim.api.nvim_set_hl(0, "AssistantParagraph", { bg = "none" })
