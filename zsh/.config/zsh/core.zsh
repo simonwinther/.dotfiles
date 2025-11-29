@@ -22,10 +22,6 @@ setopt hist_expire_dups_first
 setopt hist_ignore_dups 
 setopt hist_verify
 
-bindkey '5A' history-search-backward
-bindkey '5B' history-search-forward
-
-
 # ──────────────────────────── TEXINPUTS ────────────────────────────
 export TEXINPUTS=/home/simon/Desktop/acl-style-files-master//:
 

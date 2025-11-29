@@ -2,21 +2,19 @@
 # ──────────────────────────── FZF ────────────────────────────
 expand_fzf_space() {
   if [[ $LBUFFER == *";f" ]]; then
-    LBUFFER="${LBUFFER%";f"} | fzf"
+    LBUFFER="${LBUFFER%";f"}| fzf"
   fi
   zle self-insert
 }
 zle -N expand_fzf_space
-bindkey " " expand_fzf_space
 
 expand_fzf_enter() {
   if [[ $LBUFFER == *";f" ]]; then
-    LBUFFER="${LBUFFER%";f"} | fzf"
+    LBUFFER="${LBUFFER%";f"}| fzf"
   fi
   zle accept-line
 }
 zle -N expand_fzf_enter
-bindkey "^M" expand_fzf_enter
 
 # ──────────────────────────── NVIM ────────────────────────────  
 function v() {
@@ -49,9 +47,5 @@ gcd() {
               --preview-window="right,50%")
     [[ -n "$dir" ]] && cd "$HOME/$dir"
 }
-
-# Alt + f and Alt + g to trigger fuzzy CD
-bindkey -s '^[f' 'fcd\n'
-bindkey -s '^[g' 'gcd\n'
 
 
